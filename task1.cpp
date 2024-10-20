@@ -10,7 +10,7 @@ int main()
 
     srand(static_cast<unsigned int>(time(0)));
 
-    // Generate a random number between 1 and 100
+    // Generates a random number between 1 and 100
 
     int randomNumber = rand() % 100 + 1;
     int guess = 0;
